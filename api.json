@@ -1,0 +1,352 @@
+{
+  "category": "ENTITY_SPIRIT",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/tokoloshe",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "tokoloshe",
+    "name": "Tokoloshe",
+    "aliases": [
+      {
+        "name": "Tikoloshe",
+        "language": "Zulu",
+        "region": "South Africa"
+      },
+      {
+        "name": "Tokolosh",
+        "language": "Xhosa",
+        "region": "South Africa"
+      },
+      {
+        "name": "Hili",
+        "language": "Various",
+        "region": "Southern Africa"
+      }
+    ],
+    "category": "ENTITY_SPIRIT",
+    "subcategory": "CRYPTID",
+    "tags": [
+      "dwarf",
+      "invisible",
+      "mischievous",
+      "shapeshifter",
+      "witch-familiar",
+      "south-africa",
+      "zulu",
+      "malevolent",
+      "sexual-assault",
+      "nocturnal"
+    ],
+    "status": "active",
+    "description": {
+      "summary": "A small, mischievous creature from Zulu folklore, capable of invisibility and summoned by witch doctors. Known for causing mischief, attacking enemies, and sexual assault. A serious cultural belief across Southern Africa with significant social implications.",
+      "full": "The Tokoloshe is a dwarf-like creature from Zulu and broader South African folklore, typically described as 2-3 feet tall, hairy, with a grotesque appearance. In some versions, it has only one buttock or leg. The tokoloshe possesses supernatural powers including invisibility (achieved by drinking water), shape-shifting, and superhuman strength. Traditionally summoned by witch doctors (sangomas) to harm enemies or cause mischief, the tokoloshe is believed to frighten children, cause illness, and commit sexual assaults while invisible. This is not a humorous folklore but a serious cultural belief that affects real people's lives, often invoked to explain unexplained events, sleep paralysis, night terrors, and assaults. Protection methods include raising beds on bricks (too high for the short creature to reach) and traditional medicines. The belief remains widespread and active across Southern Africa."
+    },
+    "etymology": {
+      "origin": "Zulu/Xhosa traditional folklore, precise etymology uncertain",
+      "meaning": "Possibly derived from Xhosa 'ukuthikolosh' (to be bewitched)",
+      "first_use": "Traditional oral folklore, predating written records"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "ENTITY_SPIRIT",
+      "type": "Dwarf/Small humanoid",
+      "subtype": "Witch familiar",
+      "variant": "Southern African"
+    },
+    "related_phenomena": [
+      {
+        "id": "impundulu",
+        "name": "Impundulu",
+        "relationship": "similar",
+        "description": "Another witch familiar from Zulu/Xhosa folklore"
+      },
+      {
+        "id": "goblin",
+        "name": "Goblin",
+        "relationship": "similar",
+        "description": "European small mischievous creatures"
+      },
+      {
+        "id": "domovoi",
+        "name": "Domovoi",
+        "relationship": "similar",
+        "description": "Slavic house spirit"
+      },
+      {
+        "id": "brownie",
+        "name": "Brownie",
+        "relationship": "similar",
+        "description": "Scottish household spirit, though typically benevolent"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "physical": {
+      "height": {
+        "min": 0.6,
+        "max": 0.9,
+        "unit": "meters",
+        "confidence": "medium"
+      },
+      "weight": {
+        "min": 10,
+        "max": 25,
+        "unit": "kilograms",
+        "confidence": "low"
+      },
+      "coloration": [
+        "dark skin",
+        "hairy"
+      ],
+      "features": [
+        {
+          "feature": "Stature",
+          "description": "Dwarf-like, 2-3 feet tall",
+          "frequency": "always"
+        },
+        {
+          "feature": "Body hair",
+          "description": "Covered in hair, grotesque appearance",
+          "frequency": "common"
+        },
+        {
+          "feature": "Single buttock/leg",
+          "description": "Some versions describe having only one buttock or leg",
+          "frequency": "occasional"
+        },
+        {
+          "feature": "Face",
+          "description": "Grotesque, frightening features",
+          "frequency": "common"
+        }
+      ],
+      "morphology": "Small humanoid with grotesque features. Dwarf-like proportions."
+    },
+    "abilities": [
+      {
+        "ability": "Invisibility",
+        "description": "Becomes invisible by drinking water",
+        "frequency": "common",
+        "evidence_level": "traditional_belief"
+      },
+      {
+        "ability": "Shape-shifting",
+        "description": "Can change form",
+        "frequency": "common",
+        "evidence_level": "traditional_belief"
+      },
+      {
+        "ability": "Superhuman strength",
+        "description": "Possesses strength disproportionate to size",
+        "frequency": "common",
+        "evidence_level": "traditional_belief"
+      },
+      {
+        "ability": "Sexual assault",
+        "description": "Believed to sexually assault women while invisible",
+        "frequency": "common",
+        "evidence_level": "cultural_belief"
+      }
+    ],
+    "behavior": {
+      "activity_period": "nocturnal",
+      "disposition": "malevolent",
+      "social_structure": "solitary",
+      "habitat_preference": [
+        "human dwellings",
+        "near water sources"
+      ],
+      "diet": "Unknown",
+      "patterns": [
+        "Summoned by witch doctors (sangomas)",
+        "Attacks enemies of summoner",
+        "Frightens children",
+        "Causes mischief and illness",
+        "Sexual assault while invisible",
+        "Enters homes at night"
+      ]
+    }
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Widespread belief across Southern Africa, particularly strong in Zulu and Xhosa communities",
+      "continents": ["Africa"],
+      "countries": ["South Africa", "Zimbabwe", "Lesotho", "Swaziland"],
+      "regions": [
+        "KwaZulu-Natal",
+        "Eastern Cape",
+        "Gauteng",
+        "Urban townships",
+        "Rural areas"
+      ]
+    },
+    "hotspots": [
+      {
+        "name": "KwaZulu-Natal Province",
+        "location": {
+          "description": "Zulu heartland",
+          "country": "South Africa",
+          "region": "KwaZulu-Natal"
+        },
+        "notes": "Strongest belief center, origin of tradition"
+      },
+      {
+        "name": "Eastern Cape",
+        "location": {
+          "description": "Xhosa territories",
+          "country": "South Africa",
+          "region": "Eastern Cape"
+        },
+        "notes": "Significant cultural belief"
+      }
+    ],
+    "temporal": {
+      "first_recorded": {
+        "date": "Pre-colonial",
+        "circa": true,
+        "source": "Zulu and Xhosa oral traditions"
+      },
+      "peak_activity_periods": [
+        {
+          "period": "Ongoing",
+          "description": "Active belief system, continuously reported"
+        }
+      ],
+      "seasonal_patterns": "No specific seasonal patterns"
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "Deep roots in Zulu and Xhosa traditional belief systems. Part of broader Southern African folklore involving spirits, ancestors, and supernatural beings controlled by traditional healers (sangomas).",
+      "earliest_accounts": "Pre-colonial oral traditions. First written accounts appear in colonial-era anthropological studies.",
+      "folklore_connections": "Connected to wider Southern African beliefs about witchcraft, spirits, and the supernatural power of traditional healers."
+    },
+    "timeline": [
+      {
+        "date": "Pre-colonial",
+        "event": "Traditional belief established",
+        "significance": "Tokoloshe belief firmly established in Zulu and Xhosa cultures",
+        "source": "Oral traditions"
+      },
+      {
+        "date": "1800s",
+        "event": "First written accounts",
+        "significance": "Colonial anthropologists begin documenting the belief",
+        "source": "Colonial records"
+      },
+      {
+        "date": "1900s-present",
+        "event": "Ongoing cultural phenomenon",
+        "significance": "Belief remains strong, blamed for crimes and unexplained events",
+        "source": "Contemporary reports"
+      }
+    ],
+    "modern_era": "The tokoloshe belief remains very much alive in modern South Africa. It is frequently invoked in criminal cases, domestic disputes, and to explain psychological phenomena. News reports regularly feature tokoloshe-related incidents. The belief has serious social implications and is not treated as mere folklore by believers."
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": [
+        "Summoned by sangomas (witch doctors) to harm enemies",
+        "Used to explain sexual assault and domestic violence",
+        "Blamed for sleep paralysis and night terrors",
+        "Protection through raised beds on bricks"
+      ],
+      "stories": [
+        "Numerous accounts of tokoloshe attacks",
+        "Stories of witch doctors sending tokoloshe against enemies",
+        "Tales of tokoloshe frightening children"
+      ],
+      "beliefs": "This is a living belief system with serious implications. Many South Africans genuinely believe in the tokoloshe and take protective measures. The belief can have negative consequences when used to excuse or explain criminal behavior."
+    },
+    "indigenous": {
+      "cultures": [
+        "Zulu",
+        "Xhosa",
+        "Sotho",
+        "Tswana"
+      ],
+      "significance": "Integral part of traditional belief systems regarding witchcraft, spirits, and the power of sangomas. Represents the dangerous side of supernatural forces that can be directed by humans.",
+      "sensitivity_note": "CRITICAL CULTURAL SENSITIVITY: This is an active, living belief system affecting millions of people. The tokoloshe belief has serious social implications, particularly regarding sexual assault accusations and explanations. Researchers and writers must approach this topic with extreme care and respect for the genuine fear and cultural significance it holds.",
+      "respect_guidelines": "Do not mock or trivialize this belief. Understand that for many South Africans, the tokoloshe is as real as any other danger. Be aware of the complex social dynamics involved when this belief intersects with crime, assault, and psychological issues."
+    },
+    "popular_culture": {
+      "literature": [
+        "Referenced in South African literature",
+        "Academic anthropological studies"
+      ],
+      "film_tv": [
+        "South African films featuring tokoloshe",
+        "Documentary coverage of the belief"
+      ],
+      "other": [
+        "News media coverage of tokoloshe-related incidents",
+        "Social media discussions",
+        "Tourist curiosity"
+      ]
+    }
+  },
+
+  "protection": {
+    "methods": [
+      {
+        "method": "Raised beds on bricks",
+        "description": "Most common protection: raise bed on bricks so tokoloshe (being short) cannot reach sleeping person",
+        "effectiveness": "Cultural standard"
+      },
+      {
+        "method": "Traditional medicines",
+        "description": "Medicines and charms from sangomas",
+        "effectiveness": "Traditional belief"
+      },
+      {
+        "method": "Salt or protective symbols",
+        "description": "Various traditional protective measures",
+        "effectiveness": "Varies by tradition"
+      }
+    ]
+  },
+
+  "research": {
+    "researchers": [
+      {
+        "name": "Various anthropologists",
+        "affiliation": "Academic institutions",
+        "contribution": "Documentation of Zulu and Xhosa folklore",
+        "period": "1800s-present"
+      }
+    ],
+    "ongoing_studies": "Anthropological and sociological research into the belief's impact on South African society, particularly regarding crime explanations and psychological phenomena."
+  },
+
+  "sources": [
+    {
+      "id": "south-african-folklore",
+      "type": "reference",
+      "title": "Southern African folklore and anthropological studies",
+      "note": "Multiple sources document this widespread belief"
+    }
+  ]
+}
