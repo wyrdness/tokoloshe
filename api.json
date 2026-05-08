@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/tokoloshe",
     "maintainers": [
       {
@@ -16,72 +16,125 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "tokoloshe",
     "name": "Tokoloshe",
-    "aliases": [],
-    "category": "ENTITY_SPIRIT_/_CRYPTID",
-    "subcategory": "Witch familiar",
-    "tags": [
-      "folklore",
-      "mythology"
+    "aliases": [
+      { "name": "Tikoloshe", "language": "isiZulu", "region": "Southern Africa" },
+      { "name": "Tikolosh", "language": "isiXhosa", "region": "Southern Africa" },
+      { "name": "Tokolosh", "language": "Anglicized", "region": "Southern Africa" },
+      { "name": "Tonkolosh", "language": "Anglicized variant", "region": "Southern Africa" },
+      { "name": "Hili", "language": "isiXhosa", "region": "Southern Africa" },
+      { "name": "Uthikoloshe", "language": "isiZulu", "region": "Southern Africa" }
     ],
-    "status": "documented",
+    "category": "ENTITY_SPIRIT",
+    "subcategory": "Witch familiar / water spirit",
+    "tags": [
+      "southern-africa",
+      "zulu-folklore",
+      "xhosa-folklore",
+      "nguni-tradition",
+      "witch-familiar",
+      "water-spirit",
+      "dwarf-being"
+    ],
+    "status": "active",
     "description": {
-      "summary": "The Tokoloshe (also Tikoloshe, Tokolosh) is a dwarf-like creature from Zulu and broader South African folklore, typically described as 2-3 feet tall, hairy, with a grotesque appearance.",
-      "full": "The Tokoloshe (also Tikoloshe, Tokolosh) is a dwarf-like creature from Zulu and broader South African folklore, typically described as 2-3 feet tall, hairy, with a grotesque appearance. In some versions, it has only one buttock or leg. The tokoloshe possesses supernatural powers including **invisibility** (achieved by drinking water), **shape-shifting**, and **superhuman strength**. Traditionally summoned by witch doctors (sangomas) to harm enemies or cause mischief, the tokoloshe is believed to frighten children, cause illness, and commit sexual assaults while invisible."
+      "summary": "A dwarf-like water spirit of Nguni (Zulu, Xhosa) folklore in Southern Africa, traditionally summoned by witch doctors to harm enemies. Known for invisibility, biting sleeping victims, and aggressive nocturnal behavior.",
+      "full": "The tokoloshe (also tikoloshe, tikolosh, tonkolosh, or hili) is a dwarf-like water spirit central to Nguni mythology in Southern Africa, prominent among Zulu, Xhosa, and other Bantu-speaking peoples. Traditionally hip-high or smaller, hairy, and grotesque, it is most often described as a malevolent entity summoned by a witch (umthakathi) to torment a victim. According to Zulu tradition, the tokoloshe achieves invisibility by drinking water or swallowing a stone, allowing it to enter homes unseen and bite sleeping persons - especially their toes - cause illness, frighten children, or kill. The most enduring protective practice is to raise one's bed off the ground on bricks, placing the sleeper out of reach. A widely cited 1955 South African newspaper headline, dated 7 December 1955, demonstrates the depth of mid-20th-century public concern. The tokoloshe remains a living part of Southern African folk belief and a recurring figure in regional pop culture, including the Madam & Eve comic strip and the South African film A Reasonable Man (1999)."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "isiZulu uthikoloshe / isiXhosa utikoloshe; the term spans Nguni-language groups across Southern Africa.",
+      "meaning": "Often glossed simply as 'tokoloshe' or 'water sprite/dwarf'.",
+      "first_use": "Recorded in 19th- and early-20th-century missionary and colonial ethnographies of Zulu and Xhosa belief"
     }
   },
+
   "classification": {
     "taxonomy": {
-      "category": "ENTITY_SPIRIT_/_CRYPTID",
+      "category": "ENTITY_SPIRIT",
       "type": "Witch familiar",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "subtype": "Water spirit / dwarf-being",
+      "variant": "Nguni (Southern Africa)"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "impundulu", "name": "Impundulu", "relationship": "related", "description": "Nguni 'lightning bird' witch familiar" },
+      { "id": "shtriga", "name": "Shtriga", "relationship": "similar", "description": "Albanian witch tradition" },
+      { "id": "duende", "name": "Duende", "relationship": "similar", "description": "Iberian dwarf-being" },
+      { "id": "leprechaun", "name": "Leprechaun", "relationship": "similar", "description": "Irish dwarf-being" },
+      { "id": "knocker", "name": "Knocker", "relationship": "similar", "description": "Cornish mine-dwarf" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "height": { "min": 0.5, "max": 1.0, "unit": "meters", "confidence": "low" },
+      "coloration": ["dark brown", "ash-grey", "blackish"],
+      "features": [
+        { "feature": "Short, dwarf-like stature", "description": "Approximately hip-high to a standing adult; described as small and stocky", "frequency": "always" },
+        { "feature": "Hairy body", "description": "Body covered with coarse hair", "frequency": "common" },
+        { "feature": "Grotesque face", "description": "Often described with a misshapen or animal-like face; some traditions describe a single buttock", "frequency": "common" },
+        { "feature": "Genital exaggeration (some traditions)", "description": "In some Zulu and Xhosa accounts, an exaggerated phallus is described", "frequency": "occasional" }
+      ],
+      "morphology": "Dwarf-like, hairy, water-associated humanoid; in some Xhosa traditions identified with the river-dwelling 'hili'."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Invisibility (water/stone trigger)", "description": "Becomes invisible by drinking water or swallowing a stone; cited consistently across Zulu and Xhosa accounts", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Biting/attacking the sleeping", "description": "Bites toes or strangles victims while they sleep", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Causing illness or death", "description": "Believed to cause illness, misfortune, or death in targeted persons", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Summoned via witchcraft", "description": "Created and dispatched by an umthakathi (witch) using ritualized practices", "frequency": "common", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "aggressive",
+      "social_structure": "solitary",
+      "habitat_preference": ["rivers and streams", "homesteads (especially at night)", "bushland"],
+      "diet": "Folkloric; said to feed on sour milk, food left out, or victims' life-force",
+      "patterns": [
+        "Approaches sleeping people at night",
+        "Avoided by raising the bed off the ground on bricks",
+        "Banished by sangomas (traditional healers) or apostolic-church pastors"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Reported throughout Southern Africa, especially among Nguni-speaking peoples (Zulu, Xhosa, Swazi, Ndebele) and into neighboring states.",
+      "continents": ["Africa"],
+      "countries": ["South Africa", "eSwatini", "Lesotho", "Zimbabwe", "Mozambique", "Botswana"],
+      "regions": ["KwaZulu-Natal", "Eastern Cape", "Mpumalanga", "Limpopo", "Gauteng townships"]
     },
     "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "Pre-colonial",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Nguni oral tradition; first documented in 19th-century ethnographic literature"
+      },
+      "peak_activity_periods": [
+        { "period": "Pre-colonial - present", "description": "Continuous Nguni oral tradition" },
+        { "period": "1950s", "description": "Mid-20th-century South African press coverage; 7 December 1955 headline cited in Wikipedia" }
+      ],
+      "seasonal_patterns": "No clear seasonal pattern; reports cluster around personal misfortune and inter-household conflict."
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Nguni (Zulu, Xhosa) and broader Bantu cosmology. Often interpreted within witchcraft traditions where the tokoloshe is the familiar of an umthakathi.",
+      "earliest_accounts": "Recorded in 19th-century missionary and ethnographic literature on Zulu and Xhosa belief.",
+      "folklore_connections": "Connected to wider African 'water spirit' and witch-familiar traditions, and comparable to dwarf-being figures in other folklores."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "Pre-colonial", "event": "Tokoloshe traditions in Nguni oral tradition", "significance": "Cultural baseline", "source": "Nguni oral tradition" },
+      { "date": "1955-12-07", "event": "South African newspaper headline cited as evidence of widespread mid-20th-century public concern about the tokoloshe", "significance": "Documents persistence of belief into the modern era", "source": "Wikipedia 'Tokoloshe' article" },
+      { "date": "1999", "event": "Release of South African film A Reasonable Man (Gavin Hood), in which the tokoloshe is central to the plot", "significance": "Brings tokoloshe folklore to international cinema", "source": "Hood, G., A Reasonable Man (1999)" }
+    ],
+    "modern_era": "The tokoloshe remains a living part of Southern African folk belief, with periodic press reporting on community responses to alleged tokoloshe activity. It is widely referenced in regional film, comics (Madam & Eve), and television."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,6 +145,7 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
@@ -99,28 +153,77 @@
     "audio": [],
     "trace": []
   },
+
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Witch familiar (Nguni tradition)",
+        "description": "The tokoloshe is a real spirit-being created and controlled by an umthakathi (witch) using bone-and-herb rituals; it is dispatched against household enemies and dispelled by sangomas or apostolic pastors.",
+        "proponents": ["Traditional Nguni knowledge keepers", "Sangomas"],
+        "evidence_cited": ["Continuous oral tradition", "Persistent reports of tokoloshe affliction", "Practice of raising beds on bricks"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Sleep paralysis and night terrors",
+        "description": "Many tokoloshe experiences (sense of pressure, biting at extremities, paralysis, malevolent presence) match the well-documented neurology of sleep paralysis and hypnagogic/hypnopompic hallucinations.",
+        "proponents": ["Various medical and psychological commentators"],
+        "evidence_cited": ["Cross-cultural pattern of 'old hag'-style sleep-paralysis figures", "Symptom alignment with REM-onset paralysis"]
+      },
+      {
+        "name": "Social-explanation function",
+        "description": "Tokoloshe accusations operate as social explanations for misfortune, illness, sexual assault, and inter-household conflict, paralleling functions seen in other witchcraft traditions.",
+        "proponents": ["Anthropologists of African religion"],
+        "evidence_cited": ["Recurrent role of tokoloshe in conflict narratives", "Pattern of accusations against marginalized neighbors"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Zulu uthikoloshe tradition",
+        "Xhosa utikoloshe / hili tradition",
+        "Witchcraft (umthakathi) and traditional-healing (sangoma) practice"
+      ],
+      "stories": [
+        "Tokoloshe attacking sleeping victims; protection by raising the bed on bricks",
+        "Tokoloshe banished by apostolic-church pastors or sangomas"
+      ],
+      "beliefs": "Belief in the tokoloshe remains widespread in Southern Africa, particularly in rural communities and townships, and is invoked in narratives of unexplained illness, domestic conflict, and misfortune."
+    },
+    "indigenous": {
+      "cultures": ["Zulu", "Xhosa", "Swazi", "Ndebele"],
+      "significance": "Part of living Nguni religious and folk practice, intertwined with witchcraft accusations and traditional healing.",
+      "sensitivity_note": "The tokoloshe is part of a living African religious tradition; coverage should distinguish ethnographic description from sensational 'monster' framing.",
+      "respect_guidelines": "When describing tokoloshe traditions, defer to Southern African scholarship and avoid colonial-era characterisations of African religion as 'superstition'."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
+      "literature": [
+        "The Tokoloshe - Pieter W. Grobbelaar (Anglo-Afrikaans children's literature)"
+      ],
+      "film_tv": [
+        "A Reasonable Man (1999, dir. Gavin Hood)",
+        "The Tokoloshe (2018, dir. Jerome Pikwane)"
+      ],
       "games": [],
-      "other": []
+      "music": [],
+      "other": [
+        "Madam & Eve comic strip (Stephen Francis and Rico Schacherl) - recurring tokoloshe character"
+      ]
     }
   },
+
   "research": {
     "researchers": [],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "Anthropological and African-religion studies of contemporary tokoloshe belief continue at South African universities (e.g. University of KwaZulu-Natal, Rhodes University)."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "wikipedia-tokoloshe", "type": "website", "title": "Tokoloshe", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Tokoloshe", "accessed": "2026-05-07" },
+    { "id": "hood-1999", "type": "documentary", "title": "A Reasonable Man", "authors": ["Gavin Hood"], "date": "1999" },
+    { "id": "pikwane-2018", "type": "documentary", "title": "The Tokoloshe", "authors": ["Jerome Pikwane"], "date": "2018" }
+  ]
 }
